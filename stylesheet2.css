@@ -5,10 +5,10 @@
   font-family: Helvetica;
 }
 
+
 #navBar {
   width: 100%;
-  height: 50px;
-  border-bottom: 2px solid black;
+  height: 45px;
 
 }
 
@@ -16,13 +16,12 @@
 ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding: 0px 20px;
+    padding: 0;
     overflow: hidden;
-    background-color: #f2f2f2;
 }
 
 /* Float the list items side by side */
-ul.topnav li {float: right; padding: 0px 20px}
+ul.topnav li {float: right;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
@@ -36,7 +35,7 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {background-color: #fff;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
@@ -49,8 +48,8 @@ ul.topnav li.icon {display: none;}
   background-repeat: no-repeat;
   background-size: contain;
   /*width: 20%;*/
-}
 
+}
 #topBar {
   height: 90px;
   width: 100%;
@@ -243,6 +242,10 @@ ul.topnav li.icon {display: none;}
   margin-right: 30px;
 }
 
+.space {
+  margin-right: 15px;
+}
+
 #progressBar {
   width: 90%;
   margin: 0 auto;
@@ -324,4 +327,16 @@ ul.topnav li.icon {display: none;}
   line-height: 25px;
   font-family: helvetica;
   justify-content: space-between;
+}
+
+.user-img-round {
+    margin-top: 60px;
+    border-radius: 50%;
+    overflow: visible;
+    display: inline-block;
+    line-height: 0;
+    background-color: #F7F7F9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
