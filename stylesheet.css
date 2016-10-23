@@ -77,7 +77,8 @@
   width: 170px;
   float: right;
   margin-top: 25px;
-  margin-right: 30px;
+  margin-right: 35px;
+  font-family: Helvetica;
 }
 
 #progressBar {
@@ -130,6 +131,7 @@
 
 #descriptionContainer {
   width: 90%;
+  height: 200px;
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
@@ -148,7 +150,7 @@
     margin-left: 15px;
     display: inline-block;
     float: left;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 #description {
@@ -161,4 +163,54 @@
   line-height: 25px;
   font-family: helvetica;
   justify-content: space-between;
+}
+
+#poolersContainer {
+  width: 90%;
+  height: 200px;
+  border: 1px solid #D7D7D7;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+#contributors {
+  width: 90%;
+  height: 40px;
+  border-bottom: 1px solid #D7D7D7;
+  margin: 0 auto;
+  line-height: 55px;
+  padding-left: 15px;
+  font-family: Helvetica;
+
+}
+
+#contributorsDp {
+  width: 90%;
+  height: 90px;
+  margin: 0 auto;
+  padding-left: 15px;
+
+}
+
+.contributorSquare {
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  margin-top: 20px;
+  margin-left: 15px;
+  /*background-color: red;*/
+}
+
+.contributorIcon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
 }
