@@ -34,3 +34,65 @@
   border: 2px solid blue;
   margin: 0;
 }
+
+#productTitle {
+  margin-top: 50px;
+  margin-left: 5px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: 300;
+  color: #262626;
+
+}
+
+#progressContainer {
+  width: 90%;
+  height: 150px;
+  border: 1px solid #D7D7D7;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+#progressTop {
+  width: 100%;
+  height: 40px;
+  /*border: 2px solid black;*/
+
+}
+
+#progressAmount {
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: 300;
+  color: #262626;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 150px;
+  float: left;
+}
+
+#progressExpire {
+  width: 170px;
+  float: right;
+  margin-top: 20px;
+}
+
+.progress {
+  width: 100%;
+  height: 50px;
+}
+
+.progress-wrap {
+  background: #f80;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+.progress-wrap .progress-bar {
+  background: #ddd;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
