@@ -39,7 +39,7 @@ $(document).ready(function () {
     }
 
     if(bar == 100) {
-      $('#contributorsDp').append("<div id='savings'>Saved 7.80 Per Purchase</div>")
+      $('#contributorsDp').append("<div id='savings'>Saved $7.80 Per Purchase</div>")
     }
 
     if(bar === 100) {

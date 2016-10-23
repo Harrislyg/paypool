@@ -138,13 +138,14 @@
 
 #savings {
   float: right;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 1.3em;
   font-weight: 700;
   color: #00CA72;
   font-family: Helvetica;
-  line-height: 180px;
+  margin-top: 20px;
 }
 
 #profilePic {
