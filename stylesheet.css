@@ -106,7 +106,7 @@
 }
 
 #completedPayment {
-  padding: 3px;
+  padding: 5px 10px;
   border: 1px solid #D7D7D7;
   width: 100px;
   text-align: center;
@@ -125,7 +125,7 @@
   margin-right: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-image: url('./images/echo.jpg')
 }
 
@@ -151,10 +151,29 @@
     display: inline-block;
     float: left;
     margin-top: 30px;
+    background-image: url('./images/rafikahProfile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
+/*.img-responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 70px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+
+}*/
+
 #description {
-  width: 510px;
+  width: 70%;
   height: 120px;
   display: inline-block;
   margin-top: 15px;
@@ -167,12 +186,12 @@
 
 #poolersContainer {
   width: 90%;
-  height: 200px;
+  height: 180px;
   border: 1px solid #D7D7D7;
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
-
+  margin-bottom: 30px;
 }
 
 #contributors {
@@ -183,6 +202,7 @@
   line-height: 55px;
   padding-left: 15px;
   font-family: Helvetica;
+  color: #D7D7D7;
 
 }
 
@@ -203,7 +223,7 @@
   /*background-color: red;*/
 }
 
-.contributorIcon {
+#contributorIcon1 {
   width: 60px;
   height: 60px;
   border: 2px solid #00CA72;
@@ -213,4 +233,86 @@
   border-radius: 30px;
   margin: 0 auto;
   position: relative;
+  background-image: url('./images/harris.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name1 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#contributorIcon2 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./images/ravi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#name2 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+#contributorIcon3 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./images/titmy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name3 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#contributorIcon4 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./images/vu.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name4 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
 }
