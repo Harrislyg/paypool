@@ -355,11 +355,7 @@
     position: relative;
 }
 
-<<<<<<< HEAD
-.ss {
-  display: inline-block;
-  margin-right: 0px;
-=======
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -389,5 +385,4 @@ ul.topnav li.icon {display: none;}
 
 .space {
   margin-right: 15px;
->>>>>>> 6fc2ccf76cdc5a2808d6697ac3f995d616a4191e
 }
