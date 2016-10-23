@@ -32,9 +32,17 @@ $(document).ready(function () {
     person = name[imgId]
     bar = progress[imgId]
     console.log(imgId)
-    $('#contributorsDp').append("<div class='contributorSquare'><div id='contributorIcon" + imgId + "'></div><div id='name" + imgId + "'>" + person + "</div></div>")
-    $('.progress-wrap').data('progress-percent', bar)
-    moveProgressBar()
+    if (bar < 101) {
+      $('#contributorsDp').append("<div class='contributorSquare'><div id='contributorIcon" + imgId + "'></div><div id='name" + imgId + "'>" + person + "</div></div>")
+      $('.progress-wrap').data('progress-percent', bar)
+      moveProgressBar()
+    }
+
+    if(bar == 100) {
+      $('#contributorsDp').append("<div id='savings'>Saved 7.80 Per Purchase</div>")
+    }
+
+
     if(bar === 100) {
       $('#completedPayment').css({'background-color': '#00CA72', 'color': '#fff', 'border': 'none'})
       $('#poolersContainer').css({'border-color': '#00CA72', 'border-width': '3px'})
