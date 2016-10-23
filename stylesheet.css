@@ -7,7 +7,7 @@
 
 #navBar {
   width: 100%;
-  height: 50px;
+  height: 45px;
   border-bottom: 2px solid black;
 
 }
@@ -23,7 +23,7 @@
   width: 18%;
   height: 100%;
   float: left;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   margin: 0;
 }
 
@@ -213,4 +213,54 @@
   border-radius: 30px;
   margin: 0 auto;
   position: relative;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+#logo{
+  float: left;
+  background-image: url("images/Logo.png");
+  height: 60px;
+  width: 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*width: 20%;*/
+
+}
+.user-img-round {
+    margin-top: 50px;
+    border-radius: 50%;
+    overflow: visible;
+    display: inline-block;
+    line-height: 0;
+    background-color: #F7F7F9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
