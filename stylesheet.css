@@ -7,7 +7,7 @@
 
 #navBar {
   width: 100%;
-  height: 45px;
+  height: 50px;
 
 }
 
@@ -22,7 +22,6 @@
   width: 18%;
   height: 100%;
   float: left;
-  /*border: 2px solid red;*/
   margin: 0;
 }
 
@@ -105,7 +104,7 @@
 }
 
 #completedPayment {
-  padding: 3px;
+  padding: 5px 10px;
   border: 1px solid #D7D7D7;
   width: 100px;
   text-align: center;
@@ -124,7 +123,7 @@
   margin-right: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-image: url('./images/echo.jpg')
 }
 
@@ -135,6 +134,18 @@
   margin-left: 5px;
   margin-right: 5px;
 
+}
+
+#savings {
+  float: right;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #00CA72;
+  font-family: Helvetica;
+  margin-top: 20px;
 }
 
 #profilePic {
@@ -150,10 +161,29 @@
     display: inline-block;
     float: left;
     margin-top: 30px;
+    background-image: url('./images/rafikahProfile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
+/*.img-responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 70px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+
+}*/
+
 #description {
-  width: 510px;
+  width: 70%;
   height: 120px;
   display: inline-block;
   margin-top: 15px;
@@ -166,12 +196,12 @@
 
 #poolersContainer {
   width: 90%;
-  height: 200px;
+  height: 180px;
   border: 1px solid #D7D7D7;
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
-
+  margin-bottom: 30px;
 }
 
 #contributors {
@@ -182,6 +212,7 @@
   line-height: 55px;
   padding-left: 15px;
   font-family: Helvetica;
+  color: #D7D7D7;
 
 }
 
@@ -202,11 +233,7 @@
   /*background-color: red;*/
 }
 
-.space {
-  margin-right: 15px;
-}
-
-.contributorIcon {
+#contributorIcon1 {
   width: 60px;
   height: 60px;
   border: 2px solid #00CA72;
@@ -216,8 +243,123 @@
   border-radius: 30px;
   margin: 0 auto;
   position: relative;
+  background-image: url('./images/harris.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#name1 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#contributorIcon2 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./images/ravi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#name2 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+#contributorIcon3 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./images/titmy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name3 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#contributorIcon4 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00CA72;
+  overflow: hidden;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./images/vu.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name4 {
+  font-family: Helvetica;
+  color: #252525;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#navBar {
+  width: 100%;
+  height: 45px;
+
+}
+
+#logo{
+  float: left;
+  background-image: url("images/Logo.png");
+  height: 60px;
+  width: 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*width: 20%;*/
+
+}
+.user-img-round {
+    margin-top: 60px;
+    border-radius: 50%;
+    overflow: visible;
+    display: inline-block;
+    line-height: 0;
+    background-color: #F7F7F9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+<<<<<<< HEAD
+.ss {
+  display: inline-block;
+  margin-right: 0px;
+=======
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -245,29 +387,7 @@ ul.topnav li a:hover {background-color: #fff;}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
 
-#logo{
-  float: left;
-  background-image: url("images/Logo.png");
-  height: 60px;
-  width: 70%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  /*width: 20%;*/
-
-}
-.user-img-round {
-    margin-top: 60px;
-    border-radius: 50%;
-    overflow: visible;
-    display: inline-block;
-    line-height: 0;
-    background-color: #F7F7F9;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.ss {
-  display: inline-block;
-  margin-right: 0px;
+.space {
+  margin-right: 15px;
+>>>>>>> 6fc2ccf76cdc5a2808d6697ac3f995d616a4191e
 }
