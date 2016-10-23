@@ -266,3 +266,8 @@ ul.topnav li.icon {display: none;}
     background-position: center;
     position: relative;
 }
+
+.ss {
+  display: inline-block;
+  margin-right: 0px;
+}
