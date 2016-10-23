@@ -1,0 +1,22 @@
+{
+  "name": "paypool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harrislyg/paypool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harrislyg/paypool/issues"
+  },
+  "homepage": "https://github.com/Harrislyg/paypool#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
