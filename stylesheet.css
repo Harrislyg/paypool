@@ -1,0 +1,36 @@
+#container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+#navBar {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid black;
+
+}
+
+#mainContainer {
+  width: 80%;
+  height: 900px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+#leftContainer {
+  width: 18%;
+  height: 100%;
+  float: left;
+  border: 2px solid red;
+  margin: 0;
+}
+
+#rightContainer {
+  width: 78%;
+  height: 100%;
+  float: right;
+  border: 2px solid blue;
+  margin: 0;
+}
